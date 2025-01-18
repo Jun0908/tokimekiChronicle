@@ -37,7 +37,7 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
 | Demo Movie      |                                      [tokimeki-chronicle-demo](https://youtu.be/agQj5_Lpucc)|
-| Pitch Doc    |   [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGVtA0iy08/Sz0p5ehf7WcXCwoIdE_ZVg/edit?utm_content=DAGVtA0iy08&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| Pitch Doc    |   [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGchHryAAA/sK3Zmk4uzxb20zobgVyPXw/edit?utm_content=DAGchHryAAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Demo Site     |                                 [tokimeki-chronicle-demo](https://tpfsg35rib.ap-northeast-1.awsapprunner.com/evaluate-1)| 
 
 
