@@ -1,4 +1,4 @@
-# トキメキ⭐︎クロ二カル / Tokimeki⭐︎Chronicle 
+# トキメキ⭐︎クロ二カル 
 
 ### 概要 / Overview
 
