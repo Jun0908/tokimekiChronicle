@@ -1,4 +1,4 @@
-# Tokimeki Chronicle 
+# Tokimeki⭐︎Chronicle 
 
 ### Overview
 
@@ -6,8 +6,7 @@
 ### Problems
 
 
-### Solution – Diverse Model Evaluation through FID and Human Insights
-
+### Solution 
 
 
 ### Technologies I used
@@ -45,17 +44,6 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
 | Bitkub Testnet    | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e)|
-| Flare Testnet   | [0x693b50002b5f7fd382882cb9cf23c8fe14af84849998e23854c17d488456d622](https://coston2-explorer.flare.network/tx/0x693b50002b5f7fd382882cb9cf23c8fe14af84849998e23854c17d488456d622)|
-| Flow Testnet    | [0xad7a9409d0d28ac57f59b41cf811db9eac47fd9dbf8836d3d3f806a95dcec5f2](https://evm-testnet.flowscan.io/tx/0xad7a9409d0d28ac57f59b41cf811db9eac47fd9dbf8836d3d3f806a95dcec5f2)
-| Polygon Amoy   | [0x5f6de723d264bd63e0e2367a05a08bdf9b281ab6729a047ac28d08824545de2b](https://www.oklink.com/amoy/tx/0x5f6de723d264bd63e0e2367a05a08bdf9b281ab6729a047ac28d08824545de2b)|
-| Scroll Testnet   | [0xe2a548dacdbc942d659a523fd40335000c80064c](https://sepolia.scrollscan.com/address/0xe2a548dacdbc942d659a523fd40335000c80064c)|
-
-
-### What's next for
-- **FineTuning**: Fine-tuning involves reducing bias by incorporating diverse datasets, allowing the model to better represent various cultural and linguistic perspectives, thus improving accuracy and fairness across different contexts.
-- **[zkLLM](https://github.com/jvhs0706/zkllm-ccs2024)**: zkLLM (zero-knowledge Language Model) leverages zero-knowledge proofs to ensure privacy-preserving interactions with language models. This approach enables users to verify model responses without exposing sensitive data, enhancing trust and security in AI applications.
-
-We would like to create **the society with decentralized value** by increasing **diverse evaluation criteria**.
 
 
 ### Implementation Status
@@ -67,13 +55,7 @@ We would like to create **the society with decentralized value** by increasing *
 | Demo Site     |                                 [Nudibranch-demo](https://tpfsg35rib.ap-northeast-1.awsapprunner.com/evaluate-1)| 
 
 
-### 📺 Explanation / 説明書き
-
-AI Agentsは、MetaMeプラットフォームにおけるエンゲージメントとコミュニティ活動を活性化するため、高度なAI機能を備えたiNFT（intelligence NFT）を開発します。これにより、メタバース内のインタラクションが豊かになり、ユーザー参加型のコンテンツ生成を促進します。
-
- [Movie in Loom/ 紹介動画 Loom](https://www.loom.com/share/6d470c31cb374f7f94587d5b7be31d77?sid=c83495ec-9e79-43f2-96cd-7337bb9681b0)
-  
-### 🔵 How to excute / 実行方法
+###  How to excute / 実行方法
 ① Get API / APIの取得
 
 .env.sample を .envに書き換えてください
@@ -110,4 +92,10 @@ npm install
 # Start the development server
 npm run dev
 ```
+
+### What's next for
+- **FineTuning**: Fine-tuning involves reducing bias by incorporating diverse datasets, allowing the model to better represent various cultural and linguistic perspectives, thus improving accuracy and fairness across different contexts.
+- **[zkLLM](https://github.com/jvhs0706/zkllm-ccs2024)**: zkLLM (zero-knowledge Language Model) leverages zero-knowledge proofs to ensure privacy-preserving interactions with language models. This approach enables users to verify model responses without exposing sensitive data, enhancing trust and security in AI applications.
+
+We would like to create **the society with decentralized value** by increasing **diverse evaluation criteria**.
 
