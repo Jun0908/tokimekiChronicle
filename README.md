@@ -1,28 +1,15 @@
-# Tokimeki⭐︎Chronicle 
+# トキメキ⭐︎クロ二カル / Tokimeki⭐︎Chronicle 
 
-### Overview
-
-
-### Problems
+### 概要 / Overview
 
 
-### Solution 
+### 課題　/ Problems
 
 
-### Technologies I used
-
-**1.Model Evaluation through FID and Human Insights**
-
-We adopted a method combining FID and human evaluations for LLM assessment. FID was used to objectively assess quality and diversity, and World was utilized to verify human authenticity rather than bots. Finally, reviews were conducted by human evaluators from diverse backgrounds. Tokens were distributed to evaluators to encourage fair and accurate evaluations.
-
-<img width="526" alt="スクリーンショット 2024-11-17 0 15 45" src="https://github.com/user-attachments/assets/1ab667f5-c646-4a8c-8bde-9a0000f7f936">
+### 解決方法　/ Solution 
 
 
-**2.Text to Image with LLM Mint**
-
-We implemented a system where each LLM can be minted as an NFT, allowing NFT holders to access text-to-image prompt capabilities. The text-to-image generation is powered by Hyperbolic, a decentralized GPU network, ensuring robust, distributed processing for high-quality image creation. The generated images are stored securely on Storacha by Protocol Labs, ensuring decentralized and reliable storage. Each image is then minted as a unique NFT, creating a seamless ecosystem where users can generate, store, and own digital content with blockchain-backed authenticity and provenance.
-
-<img width="624" alt="スクリーンショット 2024-11-17 0 15 25" src="https://github.com/user-attachments/assets/ed41036b-ffa2-4004-9726-34a5291e264d">
+### テクノロジー　/ Technologies I used
 
 ①ERC6551を用いたNPCのデータ管理
 
@@ -45,17 +32,16 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 | Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
 | Bitkub Testnet    | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e)|
 
-
 ### Implementation Status
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
-| Demo Movie      |                                      [Nudibranch-demo](https://youtu.be/agQj5_Lpucc)|
-| Pitch Doc    |   [Nudibranch-presentation](https://www.canva.com/design/DAGVtA0iy08/Sz0p5ehf7WcXCwoIdE_ZVg/edit?utm_content=DAGVtA0iy08&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
-| Demo Site     |                                 [Nudibranch-demo](https://tpfsg35rib.ap-northeast-1.awsapprunner.com/evaluate-1)| 
+| Demo Movie      |                                      [tokimeki-chronicle-demo](https://youtu.be/agQj5_Lpucc)|
+| Pitch Doc    |   [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGVtA0iy08/Sz0p5ehf7WcXCwoIdE_ZVg/edit?utm_content=DAGVtA0iy08&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| Demo Site     |                                 [tokimeki-chronicle-demo](https://tpfsg35rib.ap-northeast-1.awsapprunner.com/evaluate-1)| 
 
 
-###  How to excute / 実行方法
+###  実行方法 / How to excute 
 ① Get API / APIの取得
 
 .env.sample を .envに書き換えてください
@@ -93,7 +79,7 @@ npm install
 npm run dev
 ```
 
-### What's next for
+### 次にやりたいこと /What's next for
 - **FineTuning**: Fine-tuning involves reducing bias by incorporating diverse datasets, allowing the model to better represent various cultural and linguistic perspectives, thus improving accuracy and fairness across different contexts.
 - **[zkLLM](https://github.com/jvhs0706/zkllm-ccs2024)**: zkLLM (zero-knowledge Language Model) leverages zero-knowledge proofs to ensure privacy-preserving interactions with language models. This approach enables users to verify model responses without exposing sensitive data, enhancing trust and security in AI applications.
 
