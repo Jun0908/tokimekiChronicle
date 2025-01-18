@@ -4,6 +4,7 @@
 
 
 ### 課題　/ Problems
+
 地域創生の改題として
 
 **1.地域資源の価値が十分に評価されていない**
@@ -18,22 +19,27 @@
 一度訪れた観光客がリピーターとして定着せず、地域との長期的な関わりが生まれにくい。
 観光体験が「その場限り」で終わることが多い。
 
+
 ### 解決方法　/ Solution : Crypto AI Agents
 
 **1.NFTを活用した地域資源のデジタル化と収益化**
+
 地域特産品や文化資源をNFTとして発行し、希少性を高めたデジタルアイテムを販売。
 例: 地元特産の「限定ワインラベルNFT」や「伝統工芸のデジタルアート」。
 NFT購入者に地域体験（ツアー、ワークショップ）の特典を付与し、現地訪問を促進。
 
 **2.トークン経済でひとり旅客の消費を増加**
+
 現地での消費（飲食、特産品購入）に応じて「地域限定トークン」を獲得できる仕組みを導入。
 例: 地元レストランやスナック利用でトークンを付与。
 トークンは特産品やNFTと交換可能で、旅行者の追加消費を促進。
 
 **3.NFTとトークンでリピーターを囲い込む**
+
 地域訪問者限定のNFTを発行し、所有者だけが参加できる「バーチャルコミュニティ」を形成。
 例: 地域の最新情報や限定イベント案内を提供する会員制オンラインクラブ。
 トークンの一部を地域貢献プロジェクト（インフラ整備、イベント運営）に還元し、訪問者の満足度を向上。
+
 
 ### テクノロジー　/ Technologies I used
 
@@ -104,6 +110,7 @@ npm install
 # Start the development server
 npm run dev
 ```
+
 
 ### 次にやりたいこと /What's next for
 - **FineTuning**: Fine-tuning involves reducing bias by incorporating diverse datasets, allowing the model to better represent various cultural and linguistic perspectives, thus improving accuracy and fairness across different contexts.
