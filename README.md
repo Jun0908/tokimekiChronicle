@@ -23,7 +23,6 @@
 観光体験が「その場限り」で終わることが多い。
 
 
-
 ### 解決方法　/ Solution : Crypto AI Agents
 
 ①NFTを活用した地域資源のデジタル化と収益化
@@ -59,7 +58,7 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 
 <img width="390" alt="スクリーンショット 2024-06-25 11 50 39" src="https://github.com/lodestar3/frontend/assets/31527310/1261f1ad-8f88-43d4-ac02-75d67a278adb">
 
-### Development
+### コントラクト / Contracts
 
 **IPFSNFT.sol Contracts**
 
@@ -68,7 +67,7 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 | Ethereum Sepolia    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
 | Bitkub Testnet    | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e)|
 
-### Implementation Status
+### 資料 / Implementation Status
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
