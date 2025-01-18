@@ -7,17 +7,17 @@
 
 地域創生の改題として
 
-**1.地域資源の価値が十分に評価されていない**
+**①地域資源の価値が十分に評価されていない**
 
 地域の特産品や文化的資源が現地外で認知されず、価値が埋もれている。
 観光や物販の販路が限定的で、広域での収益化が難しい。
 
-**2.ひとり旅客の消費が少なく地域経済に貢献しにくい**
+**②ひとり旅客の消費が少なく地域経済に貢献しにくい**
 
 ひとり旅は消費単価が低く、地域にお金を落とす割合が少ない。
 旅行中の追加消費や体験の動機づけが不足している。
 
-**3.観光客が一過性で終わり、リピート訪問が少ない**
+**③観光客が一過性で終わり、リピート訪問が少ない**
 
 一度訪れた観光客がリピーターとして定着せず、地域との長期的な関わりが生まれにくい。
 観光体験が「その場限り」で終わることが多い。
@@ -26,19 +26,19 @@
 
 ### 解決方法　/ Solution : Crypto AI Agents
 
-**1.NFTを活用した地域資源のデジタル化と収益化**
+**①NFTを活用した地域資源のデジタル化と収益化**
 
 地域特産品や文化資源をNFTとして発行し、希少性を高めたデジタルアイテムを販売。
 例: 地元特産の「限定ワインラベルNFT」や「伝統工芸のデジタルアート」。
 NFT購入者に地域体験（ツアー、ワークショップ）の特典を付与し、現地訪問を促進。
 
-**2.トークン経済でひとり旅客の消費を増加**
+**②トークン経済でひとり旅客の消費を増加**
 
 現地での消費（飲食、特産品購入）に応じて「地域限定トークン」を獲得できる仕組みを導入。
 例: 地元レストランやスナック利用でトークンを付与。
 トークンは特産品やNFTと交換可能で、旅行者の追加消費を促進。
 
-**3.NFTとトークンでリピーターを囲い込む**
+**③NFTとトークンでリピーターを囲い込む**
 
 地域訪問者限定のNFTを発行し、所有者だけが参加できる「バーチャルコミュニティ」を形成。
 例: 地域の最新情報や限定イベント案内を提供する会員制オンラインクラブ。
@@ -117,8 +117,5 @@ npm run dev
 
 
 ### 次にやりたいこと /What's next for
-- **FineTuning**: Fine-tuning involves reducing bias by incorporating diverse datasets, allowing the model to better represent various cultural and linguistic perspectives, thus improving accuracy and fairness across different contexts.
-- **[zkLLM](https://github.com/jvhs0706/zkllm-ccs2024)**: zkLLM (zero-knowledge Language Model) leverages zero-knowledge proofs to ensure privacy-preserving interactions with language models. This approach enables users to verify model responses without exposing sensitive data, enhancing trust and security in AI applications.
-
-We would like to create **the society with decentralized value** by increasing **diverse evaluation criteria**.
+ARの空間ににAI Agentsが暮らしていて、ユーザーはAI Agentsのミームコインに投資することができる。ARのバーチャル空間でAI Agentsが稼いだお金は、投資先に還元される。実際にAI Agentsはバーチャル空間に人間のような生活リズムを持っており、時間と場所によって出現して、実際に関わった人間やAI Agentsの関わりでも影響を受ける。
 
