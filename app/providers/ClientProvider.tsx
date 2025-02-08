@@ -56,10 +56,10 @@ export default function ClientProvider({ children }: { children: React.ReactNode
   const { chains, publicClient } = useMemo(() => configureChains(
     [
       mainnet,
-      goerli,
+      //goerli,
       sepolia,
-      polygon,
-      polygonMumbai,
+      //polygon,
+      //polygonMumbai,
       //zkSync,
       //zkSyncTestnet,
       //mantaPacific,

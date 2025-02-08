@@ -1,228 +1,141 @@
-import { NextResponse } from "next/server"
-import { Configuration, OpenAIApi } from "openai"
-import moment from "moment-timezone"
-import axios from "axios"
-//import { RepositoryFactoryHttp, Account, TransactionGroup } from "symbol-sdk";
-//import { firstValueFrom } from 'rxjs';
+import { NextResponse } from "next/server";
+import { Configuration, OpenAIApi } from "openai";
+import axios from "axios";
+import { promises as fs } from "fs";
+import { sendToken, getBalance } from "@/app/utils/contract"; 
 
-// OpenAI設定
+// OpenAI API設定
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
-})
-const openai = new OpenAIApi(configuration)
+  apiKey: process.env.OPENAI_API_KEY!,
+});
+const openai = new OpenAIApi(configuration);
 
-// URL
-const WORLD_TIME_URL = "http://worldtimeapi.org/api/timezone"
-const OPEN_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
-const CMC_URL = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
+// 外部API URL
+const OPEN_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
 
-// 時刻取得
-const getTime = async (location: string, name: string) => {
+// 天気情報取得関数
+const getWeather = async (location: string, name: string): Promise<string> => {
   try {
-    // APIコール
-    const response = await axios.get(`${WORLD_TIME_URL}/${location}`)
-    // 時刻取得
-    const { datetime } = response.data
-    // 時刻フォーマット
-    const dateTime = moment.tz(datetime, location).format("A HH:mm")
-
-    return `${name}の時刻は${dateTime}です。`
-  } catch (error) {
-    return `${name}の時刻は分かりませんでした。`
-  }
-}
-
-// 天気取得
-const getWeather = async (location: string, name: string) => {
-  try {
-    // APIコール
     const response = await axios.get(OPEN_WEATHER_URL, {
       params: {
         q: location,
-        appid: process.env.OPEN_WEATHER_API_KEY,
+        appid: process.env.OPEN_WEATHER_API_KEY!,
         units: "metric",
         lang: "ja",
       },
-    })
-    // 天気取得
-    const description = response.data.weather[0].description
-    // 気温取得
-    const temp = response.data.main.temp
-
-    return `${name}の天気は${description}で${temp}度です。`
-  } catch (error) {
-    return `${name}の天気は分かりませんでした。`
-  }
-}
-
-const getTokenPrice = async (tokenName: string) => {
-  try {
-    CMC_URL;
-    const headers = {
-      'Accepts': 'application/json',
-      'X-CMC_PRO_API_KEY': process.env.CMC_API_KEY,
-    };
-
-    const response = await axios.get(CMC_URL, {
-      headers,
-      params: {
-        start: '1',
-        limit: '5000',
-        convert: 'USD',
-      },
     });
 
-    const data = response.data;
-
-    for (const cryptocurrency of data.data) {
-      if (cryptocurrency.name.toLowerCase() === tokenName.toLowerCase()) {
-        const price = cryptocurrency.quote.USD.price;
-        return `The current price of ${tokenName} is $${price.toFixed(2)} USD`;
-      }
+    if (!response.data || !response.data.weather || !response.data.main) {
+      throw new Error("Invalid weather API response structure");
     }
-    return `${tokenName} not found in the top 5000 cryptocurrencies.`;
-  } catch (error) {
-    return '価格情報を取得できませんでした。';
+
+    const description = response.data.weather[0].description;
+    const temp = response.data.main.temp;
+
+    return `${name}の天気は${description}で${temp}度です。`;
+  } catch (error: any) {
+    console.error("Weather API Error:", error.message);
+    return `${name}の天気は分かりませんでした。`;
   }
 };
 
-// Function Calling設定
-const functions = [
-  {
-    name: "getTime",
-    description: "Get the current time for a specific location.",
-    parameters: {
-      type: "object",
-      properties: {
-        location: {
-          type: "string",
-          description:
-            "The specified location, for instance, Tokyo, Los Angeles, should be represented in the form of a timezone name such as Asia/Tokyo.",
-        },
-        name: {
-          type: "string",
-          description:
-            "The location referred to in the prompt could be, for example, Tokyo, Los Angeles.",
-        },
-      },
-      required: ["location", "name"],
-    },
-  },
-  {
-    name: "getWeather",
-    description: "Get the current weather for a specific location.",
-    parameters: {
-      type: "object",
-      properties: {
-        location: {
-          type: "string",
-          description:
-            "The specified location, for instance, Tokyo, Los Angeles, should be identified by its geographical name.",
-        },
-        name: {
-          type: "string",
-          description:
-            "The location referred to in the prompt could be, for example, Tokyo, Los Angeles.",
-        },
-      },
-      required: ["location", "name"],
-    },
-  },
-  {
-    name: "getTokenPrice",
-    description: "Get the current price of a specific cryptocurrency token.",
-    parameters: {
-      type: "object",
-      properties: {
-        tokenName: {
-          type: "string",
-          description: "The name of the cryptocurrency token, for instance, Ethereum, Bitcoin.",
-        },
-      },
-      required: ["tokenName"],
-    },
-  },
-]
-
-export async function POST(req: Request) {
+// メイン処理
+export async function POST(req: Request): Promise<NextResponse> {
   try {
-    const body = await req.json()
-    const { messages } = body
+    // JSONファイルの読み込み
+    const characterData = JSON.parse(
+      await fs.readFile("./data/character.json", "utf-8")
+    );
 
-    // ChatGPT
+    const body = await req.json();
+    const { messages } = body;
+
+    // キャラクター設定用のプロンプト
+    const characterPrompt = `
+      You are ${characterData.name}. You are ${characterData.personality}.
+      Your role is: ${characterData.role}.
+      You have knowledge in ${characterData.knowledge}.
+      Your catchphrases include: ${characterData.catchphrases.join(", ")}.
+    `;
+
+    // ChatGPT APIへのリクエスト
     const response = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo-0613",
-   
-    messages,
-    functions,
-    function_call: "auto",
-    })
+      model: "gpt-4-turbo",
+      messages: [
+        { role: "system", content: characterPrompt }, // キャラクター情報を渡す
+        ...messages,
+      ],
+      functions: [
+        {
+          name: "getWeather",
+          description: "Get the current weather for a specific location.",
+          parameters: {
+            type: "object",
+            properties: {
+              location: {
+                type: "string",
+                description: "The specified location, e.g., Tokyo, Los Angeles.",
+              },
+              name: {
+                type: "string",
+                description: "The name of the location in natural language.",
+              },
+            },
+            required: ["location", "name"],
+          },
+        },
+        {
+          name: "sendToken",
+          description: "Send tokens to a specified wallet address.",
+          parameters: {
+            type: "object",
+            properties: {
+              to: { type: "string", description: "Recipient wallet address" },
+              amount: { type: "string", description: "Amount of tokens to send" },
+            },
+            required: ["to", "amount"],
+          },
+        },
+        {
+          name: "getBalance",
+          description: "Get the balance of the smart contract.",
+          parameters: {},
+        },
+      ],
+      function_call: "auto",
+    });
 
-    // メッセージ取得
-    const responseMessage = response.data.choices[0].message
+    const responseMessage = response.data.choices[0]?.message;
 
-    // メッセージ取得エラー
-    if (!responseMessage) {
-      return new NextResponse("Message Error", { status: 500 })
-    }
+    if (!responseMessage) throw new Error("Empty response message");
 
-    // 通常のメッセージ
-    if (responseMessage.content) {
-      return NextResponse.json(responseMessage)
-    } else {
-      // Function Callingチェック
-      if (!responseMessage.function_call) {
-        return new NextResponse("Function Call Error", { status: 500 })
+    if (responseMessage.function_call) {
+      const { name, arguments: args } = responseMessage.function_call;
+      let parsedArgs;
+
+      try {
+        parsedArgs = typeof args === "string" ? JSON.parse(args) : args;
+      } catch (parseError) {
+        throw new Error("Failed to parse function call arguments");
       }
 
-      // 引数チェック
-      if (!responseMessage.function_call.arguments) {
-        return new NextResponse("Function Call Arguments Error", {
-          status: 500,
-        })
-      }
-
-      // 関数名取得
-      const functionCallName = responseMessage.function_call.name
-
-      // 引数取得
-      const functionCallNameArguments = JSON.parse(
-        responseMessage.function_call.arguments
-      )
-
-      // メッセージ内容
-      let content = ""
-
-      // 関数名によって処理を分岐
-      if (functionCallName === "getTime") {
-        // 時刻取得
-        content = await getTime(
-          functionCallNameArguments.location,
-          functionCallNameArguments.name
-        )
-      } else if (functionCallName === "getWeather") {
-        // 天気取得
-        content = await getWeather(
-          functionCallNameArguments.location,
-          functionCallNameArguments.name
-        )
-      } else if (functionCallName === "getTokenPrice") {
-        content = await getTokenPrice(
-          functionCallNameArguments.tokenName
-        )
+      let content = "";
+      if (name === "getWeather") {
+        content = await getWeather(parsedArgs.location, parsedArgs.name);
+      } else if (name === "sendToken") {
+        content = await sendToken(parsedArgs.to, parsedArgs.amount);
+      } else if (name === "getBalance") {
+        content = await getBalance();
       } else {
-         return new NextResponse("Function Call Name Error", { status: 500 })
+        throw new Error(`Unknown function call: ${name}`);
       }
 
-      // レスポンスのメッセージ作成
-      const message = {
-        role: "assistant",
-        content,
-      }
-
-      return NextResponse.json(message)
+      return NextResponse.json({ role: "assistant", content });
     }
-  } catch (error) {
-    return new NextResponse("Internal Error", { status: 500 })
+
+    return NextResponse.json(responseMessage);
+  } catch (error: any) {
+    console.error("Error:", error.message);
+    return new NextResponse("Internal Server Error", { status: 500 });
   }
 }
