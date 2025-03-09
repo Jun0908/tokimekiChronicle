@@ -18,10 +18,15 @@ Before you begin, ensure you have the following installed:
 
 Before running the application, copy the provided `.env.sample` file to `.env` and add the following API keys:
 
+- **NEXT_PUBLIC_PRIVY_APP_ID**: Obtain from [Privy](https://www.privy.io/)
 - **NEXT_PUBLIC_ALCHEMY_API_KEY**: Obtain from [Alchemy](https://www.alchemy.com/)
-- **NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID**: Obtain from [Web3 Auth](https://web3auth.io/)
-- **OPEN_WEATHER_API_KEY**: Obtain from [OpenWeather API](https://hibi-update.org/other/openweathermap-api/)
 - **OPENAI_API_KEY**: Obtain from [OpenAI](https://platform.openai.com/api-keys)
+- **PINATA_JWT**: Obtain from [Pinata](https://www.pinata.cloud/)
+- **NEXT_PUBLIC_GATEWAY_URL**: [Pinata](https://www.pinata.cloud/)
+- **PINECONE_API_KEY**: Obtain from [Pinecone](https://www.pinecone.io/)
+- **NEXT_PUBLIC_ALICE_PRIVATE_KEY**: This should be your Alice account private key (use with caution).
+- **OPEN_WEATHER_API_KEY**: Obtain from [OpenWeather API](https://hibi-update.org/other/openweathermap-api/)
+- **SEPOLIA_RPC_URL**: Ob[Alchemy](https://www.alchemy.com/)
 
 ### 2. Starting Docker
 
