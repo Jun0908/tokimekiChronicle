@@ -44,19 +44,18 @@
 
 ## 🛠️ テクノロジー / Technologies
 
-### ①  Cypto AI Agent
-- LLMからContractを呼び出すことができる
+### ①  Cypto AI Agent  [Link](https://github.com/Jun0908/tokimekiChronicle/blob/main/backend/contract-server/server.js)
+- LLMからContractを呼び出すことができる 
 - Live 2Dを使ったアバター
 - VoiceBoxによりNPCの音声を選択可能。
 - PinecoinよりEmbedding等を行い、NPCの個性を生成。
 
-### ②  NFTによるAPI制御
-- NFTがAPIアクセス管理を行い、AI Agentsの持っている能力を付加できる
-- MetaMaskを活用し、NPCのデータ管理が可能に。
+### ②  NFTによるAPI制御  [Link](https://github.com/Jun0908/tokimekiChronicle/blob/main/frontend/app/api/auth/route.ts)
+- NFTがAPIアクセス管理を行い、AI Agentsの持っている能力を付加できる 
 
-### ③  Symbol関連の技術
-- Symbolを使ったCyptoAIAgents  [Link](https://youtu.be/agQj5_Lpucc)
-- SSS extentionを使ったWallet
+### ③  Symbol関連の技術   [Link](https://github.com/Jun0908/tokimekiChronicle/blob/main/backend/contract-server/symbol-server.js)    [Link](https://github.com/Jun0908/tokimekiChronicle/tree/main/frontend/symbol)
+- Symbolを使ったCyptoAIAgents 
+- SSS extentionを使ったWallet  
 
 ---
 
