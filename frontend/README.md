@@ -1,28 +1,52 @@
-Overview
+# Project Title
+
+A brief description of your project, built with Next.js (TypeScript & App Router), Shadcn/UI, and Tailwind CSS. This project leverages multiple external APIs and Docker for containerization.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+  - [1. Obtain API Keys](#1-obtain-api-keys)
+  - [2. Starting Docker](#2-starting-docker)
+  - [3. Starting the Frontend](#3-starting-the-frontend)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
+
 This project is designed to serve as a modern web application utilizing Next.js with TypeScript, enhanced by the App Router, Shadcn/UI, and Tailwind CSS. It integrates several external APIs for functionality including blockchain, authentication, weather data, AI services, and cryptocurrency information. Docker is used for containerization to simplify deployment.
 
-Prerequisites
+## Prerequisites
+
 Before you begin, ensure you have the following installed:
 
-Node.js (v14 or later)
-Yarn
-Docker & Docker Compose
-Git
-Setup Instructions
-1. Obtain API Keys
-Before running the application, copy the provided .env.sample file to .env and add the following API keys:
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [Yarn](https://yarnpkg.com/)
+- [Docker & Docker Compose](https://docs.docker.com/get-docker/)
+- [Git](https://git-scm.com/)
 
-NEXT_PUBLIC_ALCHEMY_API_KEY: Obtain from Alchemy
-NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID: Obtain from Web3 Auth
-OPEN_WEATHER_API_KEY: Obtain from OpenWeather API
-OPENAI_API_KEY: Obtain from OpenAI
-CMC_API_KEY: Obtain from CoinMarketCap
-2. Starting Docker
+## Setup Instructions
+
+### 1. Obtain API Keys
+
+Before running the application, copy the provided `.env.sample` file to `.env` and add the following API keys:
+
+- **NEXT_PUBLIC_ALCHEMY_API_KEY**: Obtain from [Alchemy](https://www.alchemy.com/)
+- **NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID**: Obtain from [Web3 Auth](https://web3auth.io/)
+- **OPEN_WEATHER_API_KEY**: Obtain from [OpenWeather API](https://hibi-update.org/other/openweathermap-api/)
+- **OPENAI_API_KEY**: Obtain from [OpenAI](https://platform.openai.com/api-keys)
+
+### 2. Starting Docker
+
 To launch the Docker containers, run the following command in your terminal:
 
-bash
-コピーする
+```bash
 docker-compose up
+```
+
 This command will start all services defined in your docker-compose.yml file.
 
 3. Starting the Frontend
@@ -53,6 +77,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 License
 This project is licensed under the MIT License. Feel free to use and modify the code as per the license terms.
 
-Contact
-For any inquiries or support, please contact [Your Name] at [your.email@example.com].
 
