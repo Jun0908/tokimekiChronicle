@@ -53,7 +53,7 @@
 ### ②  NFTによるAPI制御  [Link](https://github.com/Jun0908/tokimekiChronicle/blob/main/frontend/app/api/auth/route.ts)
 - NFTがAPIアクセス管理を行い、AI Agentsの持っている能力を付加できる 
 
-### ③  Symbol関連の技術   [Link](https://github.com/Jun0908/tokimekiChronicle/blob/main/backend/contract-server/symbol-server.js)    [Link](https://github.com/Jun0908/tokimekiChronicle/tree/main/frontend/symbol)
+### ③  Symbol関連の技術   [Link1](https://github.com/Jun0908/tokimekiChronicle/blob/main/backend/contract-server/symbol-server.js)  [Link2](https://github.com/Jun0908/tokimekiChronicle/tree/main/frontend/symbol)
 - Symbolを使ったCyptoAIAgents 
 - SSS extentionを使ったWallet  
 
