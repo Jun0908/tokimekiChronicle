@@ -44,21 +44,31 @@
 
 ## 🛠️ テクノロジー / Technologies
 
-### ①  ERC6551を用いたNPCのデータ管理
-- ERC6551に紐づいたNFTが、IPFSの画像データの非暗号化や音声、人格のLLMのAPIアクセス管理を行う。
+### ①  Cypto AI Agent
+- LLMからContractを呼び出すことができる
+- Live 2Dを使ったアバター
+- VoiceBoxによりNPCの音声を選択可能。
+- PinecoinよりEmbedding等を行い、NPCの個性を生成。
+
+### ②  NFTによるAPI制御
+- NFTがAPIアクセス管理を行い、AI Agentsの持っている能力を付加できる
 - MetaMaskを活用し、NPCのデータ管理が可能に。
 
-### ②  LLMを用いた会話システムの構築
-- LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を生成。
-- VoiceBoxによりNPCの音声を選択可能。
-
 ### ③  Symbol関連の技術
+- Symbolを使ったCyptoAIAgents
+- SSS extentionを使ったWallet
 
 ---
 
 ## 📜 コントラクト / Contracts
 
 ###  **Sepolia Contracts**
+| Contract Name | Contract Address |
+|--------------|----------------------------------------------------------------|
+| **IPFSNFT.sol** | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971) |
+| **UniversalSender.sol** | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e) |
+
+###  **Symbol Contracts**
 | Contract Name | Contract Address |
 |--------------|----------------------------------------------------------------|
 | **IPFSNFT.sol** | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971) |
@@ -71,8 +81,8 @@
 | Title | URL |
 |------|---------------------------------------------------------------------------------|
 | 🎥 **Demo Movie** | [tokimeki-chronicle-demo](https://youtu.be/agQj5_Lpucc) |
-| 📜 **Pitch Doc** | [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGchHryAAA/sK3Zmk4uzxb20zobgVyPXw/edit?utm_content=DAGchHryAAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
-| 🖥️ **Demo Site** | [tokimeki-chronicle-demo](https://tpfsg35rib.ap-northeast-1.awsapprunner.com/evaluate-1) |
+| 📜 **Pitch Doc** | [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGchHryAAA/sK3Zmk4uzxb20zobgVyPXw/edit) |
+| 🖥️ **Demo Site** | [tokimeki-chronicle-demo]((https://tokimeki-frontend.vercel.app/)) |
 
 ---
 
