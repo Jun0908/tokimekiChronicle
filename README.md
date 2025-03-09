@@ -93,5 +93,88 @@
 
 ---
 
+# 🌟 Tokimeki Chronicle
+
+## 🏞️ Overview
+By leveraging **AI Agents and blockchain technology (NFTs & Tokens)**, we digitize regional tourism resources and local specialties to create new value.
+
+Through personalized experience proposals and a benefits system, we expand tourism consumption and encourage repeat visits.
+
+By collaborating with local residents and businesses, we aim to achieve sustainable economic revitalization and cultural preservation.
+
+---
+
+## ⚠️ Problems
+
+### ① 🏕️ Regional resources are not fully appreciated
+- Local specialties and cultural resources are not recognized outside the region, and their value remains hidden.
+- Limited sales channels for tourism and merchandise make it difficult to generate revenue on a larger scale.
+
+### ② 🎒 Solo travelers contribute less to the local economy
+- Solo travelers tend to spend less, contributing less to the local economy.
+- There is a lack of incentives for additional spending and experiences during the trip.
+
+### ③ 🎡 Tourism is often a one-time experience with few repeat visitors
+- Visitors do not establish a long-term connection with the region, making repeat visits rare.
+- Many tourism experiences end as a one-time event without continued engagement.
+
+---
+
+## 💡 Solution: Crypto AI Agents
+
+### ① 🎨 Digitizing and monetizing regional resources using NFTs
+- Issue NFTs representing local specialties and cultural resources, increasing their scarcity and digital value.
+  - Example: “Limited Edition Wine Label NFT” or “Traditional Craft Digital Art.”
+- Provide NFT holders with regional experiences (tours, workshops) as a benefit, encouraging physical visits.
+
+### ② 💰 Increasing solo traveler spending through a token economy
+- Implement a system where visitors earn **"region-limited tokens"** based on their spending (food, local products).
+  - Example: Tokens are awarded for dining at local restaurants or using local services.
+- Tokens can be exchanged for local products or NFTs, promoting additional spending by travelers.
+
+### ③ 🔄 Retaining repeat visitors using NFTs and tokens
+- Issue NFTs exclusively for visitors, granting access to a **"virtual community."**
+  - Example: A membership-based online club providing the latest regional information and exclusive events.
+- A portion of the tokens will be reinvested in local development projects (infrastructure, event management), enhancing visitor satisfaction.
+
+---
+
+## 🛠️ Technologies
+
+### ① 🔗 Crypto AI Agents
+- **AI Agents can interact with smart contracts through LLMs.**
+- **Live 2D avatars** for visual representation.
+- **VoiceBox** allows for customized NPC voices.
+- **Pinecone** enables embedding and generates unique NPC personalities.
+
+### ② 🔐 NFT-based API Control
+- **NFTs manage API access**, allowing AI Agents to acquire new abilities.
+
+### ③ 🏛️ Symbol Technology
+- **Crypto AI Agents using Symbol blockchain.**
+- **SSS extension** for secure wallet integration.
+
+---
+
+## 📂 Implementation Status
+
+| Title | URL |
+|------|---------------------------------------------------------------------------------|
+| 🎥 **Demo Movie** | [tokimeki-chronicle-demo](https://youtu.be/agQj5_Lpucc) |
+| 📜 **Pitch Doc** | [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGchHryAAA/sK3Zmk4uzxb20zobgVyPXw/edit?utm_content=DAGchHryAAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+| 🖥️ **Demo Site** | [tokimeki-chronicle-demo](https://tpfsg35rib.ap-northeast-1.awsapprunner.com/evaluate-1) |
+
+---
+
+## 🚀 What's Next
+
+- **AI Agents will exist in AR spaces, and users will be able to invest in AI Agents' meme coins.**
+- **The money AI Agents earn in the virtual space will be returned to investors.**
+- **AI Agents will appear based on time and location, evolving through interactions with both humans and other AI Agents.**
+
+---
+
+
+
 
 
