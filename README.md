@@ -59,6 +59,8 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 
 <img width="390" alt="スクリーンショット 2024-06-25 11 50 39" src="https://github.com/lodestar3/frontend/assets/31527310/1261f1ad-8f88-43d4-ac02-75d67a278adb">
 
+②Symbol関連の技術
+
 ### コントラクト / Contracts
 
 **Sepolia Contracts**
@@ -66,7 +68,15 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | IPFSNFT.sol    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
-| IPFSNFT.sol    | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e)|
+| UniversalSender.sol    | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e)|
+
+**symbol Contracts**
+
+| contract                   |                                                                                                                   contract address |
+| :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
+| IPFSNFT.sol    | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971)|
+| UniversalSender.sol    | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e)|
+
 
 ### 資料 / Implementation Status
 
