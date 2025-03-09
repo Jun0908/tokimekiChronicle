@@ -77,43 +77,6 @@ LangchainによりAPIの接続やJSONのEmbedding等を行い、NPCの個性を�
 | Demo Site     |                                 [tokimeki-chronicle-demo](https://tpfsg35rib.ap-northeast-1.awsapprunner.com/evaluate-1)| 
 
 
-###  実行方法 / How to excute 
-① Get API / APIの取得
-
-.env.sample を .envに書き換えてください
-
-下記のリンクからAPIを取得してください
-
-  [NEXT_PUBLIC_ALCHEMY_API_KEY](https://www.alchemy.com/)
-  
-  [NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID](https://web3auth.io/)
-
-  [OPEN_WEATHER_API_KEY](https://hibi-update.org/other/openweathermap-api/)
-  
-  [OPENAI_API_KEY](https://platform.openai.com/api-keys)
-
-  [CMC_API_KEY](https://coinmarketcap.com/api/)
-  
-
-② Starting Docker / Dockerの起動
-```bash
-docker-compose up
-```
-
-③ Starting Frontend /フロントエンドの起動
-```bash
-# Clone the repository
-git clone git@github.com:lodestar3/frontend.git
-
-# Change to the project directory
-cd frontend
-
-# Install library
-npm install 
-
-# Start the development server
-npm run dev
-```
 
 ### 次にやりたいこと /What's next for
 ARの空間ににAI Agentsが暮らしていて、ユーザーはAI Agentsのミームコインに投資することができる。ARのバーチャル空間でAI Agentsが稼いだお金は、投資先に還元される。実際にAI Agentsはバーチャル空間に人間のような生活リズムを持っており、時間と場所によって出現して、実際に関わった人間やAI Agentsの関わりでも影響を受ける。
