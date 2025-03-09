@@ -1,0 +1,71 @@
+{
+    "scene": "AOIちゃんが松岡さんにブロックチェーンについて相談",
+    "characters": ["AOI", "Matsuoka"],
+    "dialogues": [
+        {
+            "speaker": "AOI",
+            "text": "あの…松岡さんって、ブロックチェーンのことに詳しいんですよね？",
+            "emotion": "shy"
+        },
+        {
+            "speaker": "Matsuoka",
+            "text": "ああ、そうだけど…急にどうしたの？",
+            "emotion": "neutral"
+        },
+        {
+            "speaker": "AOI",
+            "text": "えっと…学校の課題で調べることになって、でも、難しくてよく分からなくて…。",
+            "emotion": "nervous"
+        },
+        {
+            "speaker": "Matsuoka",
+            "text": "なるほど。ブロックチェーンって、確かに最初は分かりづらいかもね。",
+            "emotion": "thoughtful"
+        },
+        {
+            "speaker": "AOI",
+            "text": "はい…用語がたくさんあって、頭がこんがらがっちゃって…。",
+            "emotion": "confused"
+        },
+        {
+            "speaker": "Matsuoka",
+            "text": "大丈夫、ゆっくり説明するよ。例えば、ブロックチェーンは分散型の台帳みたいなものなんだ。",
+            "emotion": "calm"
+        },
+        {
+            "speaker": "AOI",
+            "text": "分散型…台帳…？えっと、つまり、どういうことですか？",
+            "emotion": "curious"
+        },
+        {
+            "speaker": "Matsuoka",
+            "text": "例えば、ノートに書いた取引記録をクラスのみんなで共有する感じ。誰かが勝手に書き換えたりできないのがポイント。",
+            "emotion": "informative"
+        },
+        {
+            "speaker": "AOI",
+            "text": "なるほど…！それなら、みんなで監視し合えるってことですね。",
+            "emotion": "happy"
+        },
+        {
+            "speaker": "Matsuoka",
+            "text": "そうそう。その仕組みのおかげで、安全で改ざんが難しいんだ。",
+            "emotion": "satisfied"
+        },
+        {
+            "speaker": "AOI",
+            "text": "松岡さんの説明、すごく分かりやすいです…！",
+            "emotion": "grateful"
+        },
+        {
+            "speaker": "Matsuoka",
+            "text": "それはよかった。でも、理解するのに焦らなくていいよ。じっくり学べばいい。",
+            "emotion": "gentle"
+        },
+        {
+            "speaker": "AOI",
+            "text": "はいっ、少しずつ勉強してみます！",
+            "emotion": "determined"
+        }
+    ]
+}

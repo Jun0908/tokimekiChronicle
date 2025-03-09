@@ -1,0 +1,142 @@
+[
+    {
+      "question": "Will Joe Biden get Coronavirus before the election?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "Joe Biden did not test positive for COVID-19 before the 2020 U.S. election."
+      }
+    },
+    {
+      "question": "Will Airbnb begin publicly trading before Jan 1, 2021?",
+      "outcome": {
+        "correct_option": "Yes",
+        "explanation": "Airbnb went public on December 10, 2020."
+      }
+    },
+    {
+      "question": "Will a new Supreme Court Justice be confirmed before Nov 3rd, 2020?",
+      "outcome": {
+        "correct_option": "Yes",
+        "explanation": "Amy Coney Barrett was confirmed on October 26, 2020."
+      }
+    },
+    {
+      "question": "Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "They did not file for divorce until early 2021."
+      }
+    },
+    {
+      "question": "Will Coinbase begin publicly trading before Jan 1, 2021?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "Coinbase’s direct listing occurred on April 14, 2021."
+      }
+    },
+    {
+      "question": "What will the price of Bitcoin be on November 4th, 2020?",
+      "outcome": {
+        "correct_option": "Around $14,000",
+        "explanation": "Bitcoin’s price on November 4, 2020, was approximately $14,000."
+      }
+    },
+    {
+      "question": "Will Trump win the 2020 U.S. presidential election?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "Donald Trump lost the 2020 US presidential election to Joe Biden."
+      }
+    },
+    {
+      "question": "Will there be an Emergency Use Authorization (EUA) granted for a COVID-19 vaccine prior to Nov 3 2020?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "The first COVID-19 vaccine EUA was granted on December 11, 2020, after Nov 3."
+      }
+    },
+    {
+      "question": "What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?",
+      "outcome": {
+        "correct_option": "Around $15 billion",
+        "explanation": "According to DeFi Pulse, TVL was roughly $15 billion by the end of 2020."
+      }
+    },
+    {
+      "question": "What will the USD price of Filecoin ($FIL) be on November 17th, 2020?",
+      "outcome": {
+        "correct_option": "Around $30",
+        "explanation": "Filecoin’s price on November 17, 2020, hovered around $30."
+      }
+    },
+    {
+      "question": "Will Drake release a new studio album before the end of 2020?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "Drake’s album 'Certified Lover Boy' was released in 2021, not 2020."
+      }
+    },
+    {
+      "question": "Which party will win Florida in the 2020 presidential election?",
+      "outcome": {
+        "correct_option": "Republican Party",
+        "explanation": "Donald Trump (Republican) won Florida in the 2020 election."
+      }
+    },
+    {
+      "question": "How many confirmed Coronavirus cases will there be at EOY in the USA?",
+      "outcome": {
+        "correct_option": "Around 20 million",
+        "explanation": "By the end of 2020, the USA had approximately 20 million confirmed cases of COVID-19."
+      }
+    },
+    {
+      "question": "Who will win the 2020 MLB World Series?",
+      "outcome": {
+        "correct_option": "Los Angeles Dodgers",
+        "explanation": "The Dodgers defeated the Tampa Bay Rays in six games."
+      }
+    },
+    {
+      "question": "Will Dharma’s Phase 1 Retroactive UNI Distribution proposal pass?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "The proposal failed to meet the required quorum and did not pass."
+      }
+    },
+    {
+      "question": "Will there be a federal charge filed against Hunter Biden before 2021?",
+      "outcome": {
+        "correct_option": "No",
+        "explanation": "No federal charges were filed against Hunter Biden before 2021."
+      }
+    },
+    {
+      "question": "Will BTC break $15k before 2021?",
+      "outcome": {
+        "correct_option": "Yes",
+        "explanation": "Bitcoin’s price surpassed $15,000 in November 2020."
+      }
+    },
+    {
+      "question": "Will Khabib win his UFC 254 Fight?",
+      "outcome": {
+        "correct_option": "Yes",
+        "explanation": "Khabib Nurmagomedov defeated Justin Gaethje at UFC 254 on October 24, 2020."
+      }
+    },
+    {
+      "question": "Will 538 outperform The Economist in forecasting the 2020 Presidential Election?",
+      "outcome": {
+        "correct_option": "Ambiguous",
+        "explanation": "There was no universally agreed-upon metric for determining which forecast was more accurate."
+      }
+    },
+    {
+      "question": "Who will win the 2020 League of Legends World Championship?",
+      "outcome": {
+        "correct_option": "DAMWON Gaming (DWG)",
+        "explanation": "DAMWON Gaming defeated Suning in the finals on October 31, 2020."
+      }
+    }
+  ]

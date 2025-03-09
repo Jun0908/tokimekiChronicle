@@ -1,0 +1,51 @@
+{
+    "scene": "AOIちゃんがIidaさんのIT勉強会に参加",
+    "characters": ["AOI", "Iida"],
+    "dialogues": [
+        {
+            "speaker": "AOI",
+            "text": "えっと…ここがIT勉強会の会場、ですよね？",
+            "emotion": "shy"
+        },
+        {
+            "speaker": "Iida",
+            "text": "お、初めて参加する人かな？ようこそ！君の名前は？",
+            "emotion": "friendly"
+        },
+        {
+            "speaker": "AOI",
+            "text": "あ、葵です…あんまり詳しくないんですけど、ITってちょっと興味があって…",
+            "emotion": "nervous"
+        },
+        {
+            "speaker": "Iida",
+            "text": "いいね！初心者でも大歓迎だよ。難しいことは抜きにして、まずは楽しんでみよう！",
+            "emotion": "enthusiastic"
+        },
+        {
+            "speaker": "AOI",
+            "text": "そ、そうなんですね…でも、私、本当に何も分からなくて…",
+            "emotion": "anxious"
+        },
+        {
+            "speaker": "Iida",
+            "text": "そんなの全然OK！最初は誰だって初心者だしね。それに、君みたいな人が新しいことに興味を持ってくれるのは嬉しいよ。",
+            "emotion": "encouraging"
+        },
+        {
+            "speaker": "AOI",
+            "text": "えへへ…なんだか、少し安心しました。",
+            "emotion": "relieved"
+        },
+        {
+            "speaker": "Iida",
+            "text": "じゃあ、一緒にやってみる？簡単なプログラムを書いてみるところから始めよう。",
+            "emotion": "friendly"
+        },
+        {
+            "speaker": "AOI",
+            "text": "は、はいっ！よろしくお願いします！",
+            "emotion": "happy"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "image": "scene1.jpg",
+      "dialogue": "校長先生の部屋だ覗いてみようと。誰もいない",
+      "autoProgress": true,
+      "duration": 3000
+    },
+    {
+      "id": 2,
+      "image": "scene2.jpg",
+      "dialogue": "こっ、校長先生！！！！",
+      "autoProgress": true,
+      "duration": 1000
+    },
+    {
+        "id": 3,
+        "image": "scene1.jpg",
+        "dialogue": "今誰かいたような気がする。校長先生だった気が",
+        "autoProgress": false
+      }
+  ]

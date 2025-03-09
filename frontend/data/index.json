@@ -1,0 +1,516 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Vitalik Buterin",
+            "file": "characters/vitalik.json"
+        },
+        {
+            "id": 2,
+            "name": "Gavin Wood",
+            "file": "characters/gavin.json"
+        },
+        {
+            "id": 3,
+            "name": "CZ (Changpeng Zhao)",
+            "file": "characters/cz.json"
+        },
+        {
+            "id": 4,
+            "name": "Balaji Srinivasan",
+            "file": "characters/balaji.json"
+        },
+        {
+            "id": 5,
+            "name": "Kevin Owocki",
+            "file": "characters/qwocki.json"
+        },
+        {
+            "id": 6,
+            "name": "Chris Dixon",
+            "file": "characters/dixon.json"
+        },
+        {
+            "id": 7,
+            "name": "Audrey Tang",
+            "file": "characters/audrey.json"
+        },
+        {
+            "id": 8,
+            "name": "Elon Musk",
+            "file": "characters/elon.json"
+        },
+        {
+            "id": 9,
+            "name": "Joe Biden",
+            "file": "characters/biden.json"
+        },
+        {
+            "id": 10,
+            "name": "Donald Trump",
+            "file": "characters/trump.json"
+        },
+        {
+            "id": 11,
+            "name": "Barack Obama",
+            "file": "characters/obama.json"
+        },
+        {
+            "id": 12,
+            "name": "Angela Merkel",
+            "file": "characters/merkel.json"
+        },
+        {
+            "id": 13,
+            "name": "Warren Buffett",
+            "file": "characters/buffett.json"
+        },
+        {
+            "id": 14,
+            "name": "Jeff Bezos",
+            "file": "characters/bezos.json"
+        },
+        {
+            "id": 15,
+            "name": "Bill Gates",
+            "file": "characters/gates.json"
+        },
+        {
+            "id": 16,
+            "name": "Peter Thiel",
+            "file": "characters/thiel.json"
+        },
+        {
+            "id": 17,
+            "name": "Yuval Noah Harari",
+            "file": "characters/harari.json"
+        },
+        {
+            "id": 18,
+            "name": "Edward Snowden",
+            "file": "characters/snowden.json"
+        },
+        {
+            "id": 19,
+            "name": "Julian Assange",
+            "file": "characters/assange.json"
+        },
+        {
+            "id": 20,
+            "name": "Stephen Hawking",
+            "file": "characters/hawking.json"
+        },
+        {
+            "id": 21,
+            "name": "Michio Kaku",
+            "file": "characters/kaku.json"
+        },
+        {
+            "id": 22,
+            "name": "Sam Altman",
+            "file": "characters/altman.json"
+        },
+        {
+            "id": 23,
+            "name": "Demis Hassabis",
+            "file": "characters/hassabis.json"
+        },
+        {
+            "id": 24,
+            "name": "0xpetra",
+            "file": "characters/0xpetra.json"
+        },
+        {
+            "id": 25,
+            "name": "airdropdaily",
+            "file": "characters/airdropdaily.json"
+        },
+        {
+            "id": 26,
+            "name": "ameliehua",
+            "file": "characters/ameliehua.json"
+        },
+        {
+            "id": 27,
+            "name": "anmworld3",
+            "file": "characters/anmworld3.json"
+        },
+        {
+            "id": 28,
+            "name": "arjunkotgire",
+            "file": "characters/arjunkotgire.json"
+        },
+        {
+            "id": 29,
+            "name": "avichalp",
+            "file": "characters/avichalp.json"
+        },
+        {
+            "id": 30,
+            "name": "ayoola",
+            "file": "characters/ayoola.json"
+        },
+        {
+            "id": 31,
+            "name": "baseboi",
+            "file": "characters/baseboi.json"
+        },
+        {
+            "id": 32,
+            "name": "bilalsharief",
+            "file": "characters/bilalsharief.json"
+        },
+        {
+            "id": 33,
+            "name": "block1337",
+            "file": "characters/block1337.json"
+        },
+        {
+            "id": 34,
+            "name": "blockchainmaster",
+            "file": "characters/blockchainmaster.json"
+        },
+        {
+            "id": 35,
+            "name": "borrowlucid",
+            "file": "characters/borrowlucid.json"
+        },
+        {
+            "id": 36,
+            "name": "cocos8",
+            "file": "characters/cocos8.json"
+        },
+        {
+            "id": 37,
+            "name": "cryptobeijing",
+            "file": "characters/cryptobeijing.json"
+        },
+        {
+            "id": 38,
+            "name": "danielyuki",
+            "file": "characters/danielyuki.json"
+        },
+        {
+            "id": 39,
+            "name": "darrylyeo",
+            "file": "characters/darrylyeo.json"
+        },
+        {
+            "id": 40,
+            "name": "dharmi",
+            "file": "characters/dharmi.json"
+        },
+        {
+            "id": 41,
+            "name": "downshift",
+            "file": "characters/downshift.json"
+        },
+        {
+            "id": 42,
+            "name": "dylsteck",
+            "file": "characters/dylsteck.json"
+        },
+        {
+            "id": 43,
+            "name": "gabo",
+            "file": "characters/gabo.json"
+        },
+        {
+            "id": 44,
+            "name": "grlkrash",
+            "file": "characters/grlkrash.json"
+        },
+        {
+            "id": 45,
+            "name": "hikalipikali",
+            "file": "characters/hikalipikali.json"
+        },
+        {
+            "id": 46,
+            "name": "hlau",
+            "file": "characters/hlau.json"
+        },
+        {
+            "id": 47,
+            "name": "ichristwin",
+            "file": "characters/ichristwin.json"
+        },
+        {
+            "id": 48,
+            "name": "itsbasil",
+            "file": "characters/itsbasil.json"
+        },
+        {
+            "id": 49,
+            "name": "jafjahangir",
+            "file": "characters/jafjahangir.json"
+        },
+        {
+            "id": 50,
+            "name": "jessepollak",
+            "file": "characters/jessepollak.json"
+        },
+        {
+            "id": 51,
+            "name": "jierlich",
+            "file": "characters/jierlich.json"
+        },
+        {
+            "id": 52,
+            "name": "jones5",
+            "file": "characters/jones5.json"
+        },
+        {
+            "id": 53,
+            "name": "joris",
+            "file": "characters/joris.json"
+        },
+        {
+            "id": 54,
+            "name": "juliettemeon",
+            "file": "characters/juliettemeon.json"
+        },
+        {
+            "id": 55,
+            "name": "k1ic",
+            "file": "characters/k1ic.json"
+        },
+        {
+            "id": 56,
+            "name": "kabir",
+            "file": "characters/kabir.json"
+        },
+        {
+            "id": 57,
+            "name": "karima",
+            "file": "characters/karima.json"
+        },
+        {
+            "id": 58,
+            "name": "lazair",
+            "file": "characters/lazair.json"
+        },
+        {
+            "id": 59,
+            "name": "leopastel",
+            "file": "characters/leopastel.json"
+        },
+        {
+            "id": 60,
+            "name": "lostmidas",
+            "file": "characters/lostmidas.json"
+        },
+        {
+            "id": 61,
+            "name": "lovetuzidong",
+            "file": "characters/lovetuzidong.json"
+        },
+        {
+            "id": 62,
+            "name": "luciano",
+            "file": "characters/luciano.json"
+        },
+        {
+            "id": 63,
+            "name": "matttaylorlol",
+            "file": "characters/matttaylorlol.json"
+        },
+        {
+            "id": 64,
+            "name": "mfa",
+            "file": "characters/mfa.json"
+        },
+        {
+            "id": 65,
+            "name": "miawintam",
+            "file": "characters/miawintam.json"
+        },
+        {
+            "id": 66,
+            "name": "michal",
+            "file": "characters/michal.json"
+        },
+        {
+            "id": 67,
+            "name": "mjc716",
+            "file": "characters/mjc716.json"
+        },
+        {
+            "id": 68,
+            "name": "nrepesh",
+            "file": "characters/nrepesh.json"
+        },
+        {
+            "id": 69,
+            "name": "oaktoebark",
+            "file": "characters/oaktoebark.json"
+        },
+        {
+            "id": 70,
+            "name": "owl",
+            "file": "characters/owl.json"
+        },
+        {
+            "id": 71,
+            "name": "pl",
+            "file": "characters/pl.json"
+        },
+        {
+            "id": 72,
+            "name": "plor",
+            "file": "characters/plor.json"
+        },
+        {
+            "id": 73,
+            "name": "publu",
+            "file": "characters/publu.json"
+        },
+        {
+            "id": 74,
+            "name": "rafi",
+            "file": "characters/rafi.json"
+        },
+        {
+            "id": 75,
+            "name": "reblock",
+            "file": "characters/reblock.json"
+        },
+        {
+            "id": 76,
+            "name": "royalaid",
+            "file": "characters/royalaid.json"
+        },
+        {
+            "id": 77,
+            "name": "rubinovitz",
+            "file": "characters/rubinovitz.json"
+        },
+        {
+            "id": 78,
+            "name": "rz",
+            "file": "characters/rz.json"
+        },
+        {
+            "id": 79,
+            "name": "sahil",
+            "file": "characters/sahil.json"
+        },
+        {
+            "id": 80,
+            "name": "samuellhuber",
+            "file": "characters/samuellhuber.json"
+        },
+        {
+            "id": 81,
+            "name": "sandiforward",
+            "file": "characters/sandiforward.json"
+        },
+        {
+            "id": 82,
+            "name": "sarahzorah",
+            "file": "characters/sarahzorah.json"
+        },
+        {
+            "id": 83,
+            "name": "scottrepreneur",
+            "file": "characters/scottrepreneur.json"
+        },
+        {
+            "id": 84,
+            "name": "sidsethi",
+            "file": "characters/sidsethi.json"
+        },
+        {
+            "id": 85,
+            "name": "sohey",
+            "file": "characters/sohey.json"
+        },
+        {
+            "id": 86,
+            "name": "statuette",
+            "file": "characters/statuette.json"
+        },
+        {
+            "id": 87,
+            "name": "thibauld",
+            "file": "characters/thibauld.json"
+        },
+        {
+            "id": 88,
+            "name": "toni2463",
+            "file": "characters/toni2463.json"
+        },
+        {
+            "id": 89,
+            "name": "vic",
+            "file": "characters/vic.json"
+        },
+        {
+            "id": 90,
+            "name": "vindeven",
+            "file": "characters/vindeven.json"
+        },
+        {
+            "id": 91,
+            "name": "warpcast-com",
+            "file": "characters/warpcast-com.json"
+        },
+        {
+            "id": 92,
+            "name": "winzy",
+            "file": "characters/winzy.json"
+        },
+        {
+            "id": 93,
+            "name": "xenbh",
+            "file": "characters/xenbh.json"
+        },
+        {
+            "id": 94,
+            "name": "zeni",
+            "file": "characters/zeni.json"
+        },
+        {
+            "id": 95,
+            "name": "zeni",
+            "file": "characters/zeni.json"
+        },
+        {
+            "id": 96,
+            "name": "yuki",
+            "file": "characters/yuki.json"
+        },
+        {
+            "id": 97,
+            "name": "vuducduy",
+            "file": "characters/vuducduy.json"
+        },
+        {
+            "id": 98,
+            "name": "tuongsan1",
+            "file": "characters/tuongsan1.json"
+        },
+        {
+            "id": 99,
+            "name": "ouksteffane",
+            "file": "characters/ouksteffane.json"
+        },
+        {
+            "id": 100,
+            "name": "illshin",
+            "file": "characters/illshin.json"
+        },
+        {
+            "id": 101,
+            "name": "shizuku",
+            "file": "characters/shizuku.json"
+        },
+        {
+            "id": 102,
+            "name": "rei",
+            "file": "characters/rei.json"
+        }
+
+    ]
+}
+

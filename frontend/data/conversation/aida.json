@@ -1,0 +1,61 @@
+{
+    "scene": "AOIちゃんがレトロゲームショップで會田さんと出会う",
+    "characters": ["AOI", "Aida"],
+    "dialogues": [
+        {
+            "speaker": "AOI",
+            "text": "わぁ、このお店…レトロなゲームがいっぱい…！",
+            "emotion": "excited"
+        },
+        {
+            "speaker": "Aida",
+            "text": "お、君もゲーム好きなのか？",
+            "emotion": "curious"
+        },
+        {
+            "speaker": "AOI",
+            "text": "はいっ！でも、こういう古いゲームはあまり知らなくて…。",
+            "emotion": "shy"
+        },
+        {
+            "speaker": "Aida",
+            "text": "なるほど。今のゲームもいいけど、昔のゲームには独特の面白さがあるぞ。",
+            "emotion": "nostalgic"
+        },
+        {
+            "speaker": "AOI",
+            "text": "例えば…どんなところが面白いんですか？",
+            "emotion": "curious"
+        },
+        {
+            "speaker": "Aida",
+            "text": "当時のゲームはシンプルだけど奥が深い。プレイヤーの発想力や工夫が問われるゲームが多かったんだ。",
+            "emotion": "passionate"
+        },
+        {
+            "speaker": "AOI",
+            "text": "へぇ…！そういうの、ちょっとやってみたくなりました！",
+            "emotion": "happy"
+        },
+        {
+            "speaker": "Aida",
+            "text": "なら、これなんかどうだ？ファミコン時代の名作だぞ。",
+            "emotion": "friendly"
+        },
+        {
+            "speaker": "AOI",
+            "text": "えっ…すごくレトロな感じ！やってみてもいいですか？",
+            "emotion": "excited"
+        },
+        {
+            "speaker": "Aida",
+            "text": "もちろん。クリアできたら、ご褒美考えとくか。",
+            "emotion": "teasing"
+        },
+        {
+            "speaker": "AOI",
+            "text": "えぇ！？そ、それは頑張らないと…！",
+            "emotion": "determined"
+        }
+    ]
+}
