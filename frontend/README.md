@@ -1,16 +1,3 @@
-# Project Title
-
-A brief description of your project, built with Next.js (TypeScript & App Router), Shadcn/UI, and Tailwind CSS. This project leverages multiple external APIs and Docker for containerization.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-  - [1. Obtain API Keys](#1-obtain-api-keys)
-  - [2. Starting Docker](#2-starting-docker)
-  - [3. Starting the Frontend](#3-starting-the-frontend)
-- [License](#license)
 
 ## Overview
 
@@ -43,27 +30,6 @@ To launch the Docker containers, run the following command in your terminal:
 ```bash
 docker-compose up
 ```
-
-# Project Title
-
-A brief description of your project, built with Next.js (TypeScript & App Router), Shadcn/UI, and Tailwind CSS. This project leverages multiple external APIs and Docker for containerization.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-  - [1. Obtain API Keys](#1-obtain-api-keys)
-  - [2. Starting Docker](#2-starting-docker)
-  - [3. Starting the Frontend](#3-starting-the-frontend)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Overview
-
-This project is designed to serve as a modern web application utilizing Next.js with TypeScript, enhanced by the App Router, Shadcn/UI, and Tailwind CSS. It integrates several external APIs for functionality including blockchain, authentication, weather data, AI services, and cryptocurrency information. Docker is used for containerization to simplify deployment.
 
 ## Prerequisites
 
