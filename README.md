@@ -1,5 +1,7 @@
 # 🌟 トキメキ・クロ二カル
 
+**An English version of the text is available below.**
+
 ## 🏞️ 概要 / Overview
 **AI Agents × ブロックチェーン（NFT・トークン）** を活用し、地域の観光資源や特産品をデジタル化して新たな価値を創出。
 個別化された体験提案や特典システムで観光消費を拡大し、リピーターを促進。
