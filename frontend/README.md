@@ -24,37 +24,10 @@ Before running the application, copy the provided `.env.sample` file to `.env` a
 - **PINATA_JWT**: Obtain from [Pinata](https://www.pinata.cloud/)
 - **NEXT_PUBLIC_GATEWAY_URL**: [Pinata](https://www.pinata.cloud/)
 - **PINECONE_API_KEY**: Obtain from [Pinecone](https://www.pinecone.io/)
-- **NEXT_PUBLIC_ALICE_PRIVATE_KEY**: This should be your Alice account private key (use with caution).
+- **NEXT_PUBLIC_ALICE_PRIVATE_KEY**: [Symbol Wallet](https://docs.symbol.dev/ja/wallets.html)
 - **OPEN_WEATHER_API_KEY**: Obtain from [OpenWeather API](https://hibi-update.org/other/openweathermap-api/)
-- **SEPOLIA_RPC_URL**: Ob[Alchemy](https://www.alchemy.com/)
+- **SEPOLIA_RPC_URL**: Obtain from [Alchemy](https://www.alchemy.com/)
 
-### 2. Starting Docker
-
-To launch the Docker containers, run the following command in your terminal:
-
-```bash
-docker-compose up
-```
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v18 or later)
-- [Yarn](https://yarnpkg.com/)
-- [Docker & Docker Compose](https://docs.docker.com/get-docker/)
-- [Git](https://git-scm.com/)
-
-## Setup Instructions
-
-### 1. Obtain API Keys
-
-Before running the application, copy the provided `.env.sample` file to `.env` and add the following API keys:
-
-- **NEXT_PUBLIC_ALCHEMY_API_KEY**: Obtain from [Alchemy](https://www.alchemy.com/)
-- **NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID**: Obtain from [Web3 Auth](https://web3auth.io/)
-- **OPEN_WEATHER_API_KEY**: Obtain from [OpenWeather API](https://hibi-update.org/other/openweathermap-api/)
-- **OPENAI_API_KEY**: Obtain from [OpenAI](https://platform.openai.com/api-keys)
 
 ### 2. Starting Docker
 
