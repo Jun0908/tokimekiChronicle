@@ -55,7 +55,7 @@
 - MetaMaskを活用し、NPCのデータ管理が可能に。
 
 ### ③  Symbol関連の技術
-- Symbolを使ったCyptoAIAgents
+- Symbolを使ったCyptoAIAgents  [Link](https://youtu.be/agQj5_Lpucc)
 - SSS extentionを使ったWallet
 
 ---
@@ -82,7 +82,7 @@
 |------|---------------------------------------------------------------------------------|
 | 🎥 **Demo Movie** | [tokimeki-chronicle-demo](https://youtu.be/agQj5_Lpucc) |
 | 📜 **Pitch Doc** | [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGchHryAAA/sK3Zmk4uzxb20zobgVyPXw/edit) |
-| 🖥️ **Demo Site** | [tokimeki-chronicle-demo]((https://tokimeki-frontend.vercel.app/)) |
+| 🖥️ **Demo Site** | [tokimeki-chronicle-demo](https://tokimeki-frontend.vercel.app/) |
 
 ---
 
