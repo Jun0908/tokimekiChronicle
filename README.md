@@ -75,7 +75,7 @@
 
 | Title | URL |
 |------|---------------------------------------------------------------------------------|
-| 🎥 **Demo Movie** | [tokimeki-chronicle-demo](https://youtu.be/agQj5_Lpucc) |
+| 🎥 **Demo Movie** | [tokimeki-chronicle-demo](https://youtu.be/tNiAQKaxTBY) |
 | 📜 **Pitch Doc** | [tokimeki-chronicle-presentation](https://www.canva.com/design/DAGchHryAAA/sK3Zmk4uzxb20zobgVyPXw/edit) |
 | 🖥️ **Demo Site** | [tokimeki-chronicle-demo](https://tokimeki-frontend.vercel.app/) |
 
