@@ -69,12 +69,6 @@
 | **IPFSNFT.sol** | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971) |
 | **UniversalSender.sol** | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e) |
 
-###  **Symbol Contracts**
-| Contract Name | Contract Address |
-|--------------|----------------------------------------------------------------|
-| **IPFSNFT.sol** | [0xd644eeb2217d02f167e8865fff55079fc140e971](https://sepolia.etherscan.io/address/0xd644eeb2217d02f167e8865fff55079fc140e971) |
-| **UniversalSender.sol** | [0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e](https://testnet.bkcscan.com/tx/0x67eeb1af00304fb3ab40fa1320b67354ce4d5492011c0cc642887a866b504e8e) |
-
 ---
 
 ## 📂 資料 / Implementation Status
